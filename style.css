@@ -1,3 +1,8 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
 .row{
   margin: 0 auto;
   padding: 0;
@@ -6,8 +11,8 @@
   margin-bottom: 0;
 }
 .myName{
+  height: 100%;
   color: white;
-  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 8vh;
   background-color: transparent;
@@ -15,11 +20,12 @@
 }
 .myName2{
   color: white;
-  font-family: 'Roboto', sans-serif;  
   font-weight: bold;
   font-size: 5vh;
   background-color: transparent;
-  margin-top: 50vh; 
+  margin-top: 50vh;
+  z-index: 10;
+  
 }
 #gradient {
   position: absolute;
@@ -27,7 +33,7 @@
   height: 100%;
   padding: 0vh;
   margin: 0vh;
-  z-index: 10;
+  z-index: 2;
 }
 #gradient2 {
   position: absolute;
@@ -35,25 +41,43 @@
   height: 100%;
   padding: 0vh;
   margin: 0vh;
-  z-index: 3;
+  z-index: 1;
   background-image: 
-  -webkit-radial-gradient(80% 10%, circle, rgb(27,186,135), transparent), 
-  -webkit-radial-gradient(80% 50%, circle, rgb(82, 186, 204), transparent), 
+  -webkit-radial-gradient(80% 10%, circle, rgb(157, 224, 173), transparent), 
+  -webkit-radial-gradient(80% 50%, circle, rgb(55, 222, 228), transparent), 
   -webkit-radial-gradient(20% 80%, 40em 40em, rgb(250, 128, 114), transparent), 
   -webkit-radial-gradient(10% 10%, circle, rgb(250, 128, 114), transparent);
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.aboutMe{
+  height: 100%;
+  z-index: 10;
+}
+.myWork{
+  height: 100%;
+}
+.samples{
+  margin-bottom: 2vh;
 }
 /*
   body{
+background-color: #E5FCC2;    
+background-color: #9DE0AD;    
+background-color: #45ADA8;  
+background-color: #318d99;   
+background-color: #594F4F;   
+
+background-color: rgb(27,186,135);
+background-color: rgb(55, 222, 228);
+background-color: rgb(26, 122, 114);
+background-color: rgb(69, 173, 168);
+  }
+  
+  /*
 background-color: #E5FCC2;    /*229, 252, 194
 background-color: #9DE0AD;    /*157, 224, 173
 background-color: #45ADA8;    /*69, 173, 168
 background-color: #547980;    /* 84, 121, 128
-background-color: #594F4F;    /*89, 79, 79
-
-background-color: rgb(27,186,135);
-background-color: rgb(84, 121, 128);
-background-color: rgb(44, 95, 104);
-background-color: rgb(69, 173, 168);
-  }*/
+background-color: #594F4F;    /*89, 79, 79*/
