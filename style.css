@@ -75,19 +75,22 @@ body{
 .samples{
   margin-bottom: 2vh;
 }
-
+/*
   body{
 background-color: #E5FCC2;    
 background-color: #9DE0AD;    
 background-color: #45ADA8;  
-background-color: #547980;   
-background-color: #594F4F;   
+background-color: #fa8072;
+background-color: #594F4F; 
+
+
+background-color: #547980;  
+
 
 background-color: rgb(27,186,135);
 background-color: rgb(55, 222, 228);
 background-color: rgb(26, 122, 114);
 background-color: rgb(69, 173, 168);
-
 background-color: rgb(250, 128, 114);
   }
   
