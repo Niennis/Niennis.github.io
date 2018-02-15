@@ -94,6 +94,7 @@ body{
   stroke-dasharray: 2190;
   opacity: 10;
   animation: animate 5s cubic-bezier(.43,.22,.41,.92);
+  -moz-animation: animate 5s cubic-bezier(.43,.22,.41,.92);  
 }
 
 .lineT{
@@ -102,7 +103,9 @@ body{
   stroke-dasharray: 2190;
   opacity: 10;
   animation: animateT 5.2s cubic-bezier(.43,.22,.41,.92);
-  animation-timing-function: ease-in;  
+  -moz-animation: animateT 5.2s cubic-bezier(.43,.22,.41,.92);  
+  animation-timing-function: ease-in; 
+  -moz-animation-timing-function: ease-in; 
 }
 
 .lineI{
@@ -111,6 +114,7 @@ body{
   stroke-dasharray: 2190;
   opacity: 10;
   animation: animateI 5.5s cubic-bezier(.43,.22,.41,.92);
+  -moz-animation: animateI 5.5s cubic-bezier(.43,.22,.41,.92);
 }
 
 @keyframes animate{
