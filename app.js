@@ -48,3 +48,4 @@ $(document).ready(function() {
     }
   } setInterval(updateGradient, 10);
 });
+
