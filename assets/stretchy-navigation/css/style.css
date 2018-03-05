@@ -51,7 +51,7 @@ Stretchy Nav style - common to:
   width: 60px;
   height: 60px;
   border-radius: 30px;
-  background: #9acd91;
+  background: salmon;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   -webkit-transition: height 0.2s, box-shadow 0.2s;
   -moz-transition: height 0.2s, box-shadow 0.2s;
@@ -343,7 +343,7 @@ add-content navigation style
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-color: #8ac57f;
+  background-color: salmon;
   -webkit-transition: width 0.2s, box-shadow 0.2s;
   -moz-transition: width 0.2s, box-shadow 0.2s;
   transition: width 0.2s, box-shadow 0.2s;
@@ -361,7 +361,7 @@ add-content navigation style
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-color: #9acd91;
+  background-color: salmon;
 }
 .cd-stretchy-nav.add-content .cd-nav-trigger span {
   background-color: transparent;
