@@ -6,7 +6,6 @@ body{
   padding: 0vh;
   margin: 0vh;
   z-index: 1;
-  /* background-color: turquoise;*/
   background-image: 
   -webkit-radial-gradient(80% 10%, circle, rgb(157, 224, 173), transparent), 
   -webkit-radial-gradient(80% 50%, circle, rgb(55, 222, 228), transparent), 
@@ -16,12 +15,18 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
 *{
   margin: 0;
   padding: 0;
 }
-
+.titleSection{
+  font-size: 40px;
+  font-weight: bold;  
+  margin: 4vh;
+  text-align: center;
+  color: white;
+}
+/* ---------------------------- INICIO ANIMACION */
 #estefania{
   height: 100%;
 }
@@ -34,71 +39,85 @@ body{
   /* font-family: 'Cookie', cursive; */
   font-size: 40px;
   color: white;
-
   /* font-family: 'Marck Script', cursive;*/
   /* font-family: 'Vibur', cursive; */
 }
+/* ------------------------------- FIN ANIMACION */
 
+/* ----------------------------- INICIO ABOUT ME */
 #aboutMe{
   background-color: teal;  
   padding: 10vh 0;
   color: white;
 }
-
-#me{
-  margin-top: 30vh;
+#aboutMe p{
+  margin-top: 5vh;
+  font-size: 18px;
+  line-height: 24px;
 }
 #aboutMe img{
   margin: 0 auto;
   width: 50vh;
   border: 1vh solid salmon;
 }
+/* -------------------------------- FIN ABOUT ME */
 
+/* ------------------------------ INICIO MY WORK */
 #myWork{
   background-color: #9de0ad;  
   padding: 10vh 0;
 }
-
-/* .workContainer{
-
-} */
-
 #myWork img{
   margin: 2vh 0 2vh -4vh;
 }
+.demo a{
+  color: teal;
+}
+.demo a:hover{
+  background-color: teal;
+  color: white;
+}
+/* --------------------------------- FIN MY WORK */
 
+/* ------------------------------- INICIO SKILLS */
 #skills{
   background-color: teal;
   color: white;
   padding-bottom: 2vh;
 }
-
-#aboutMe h2, #myWork h2, #skills h2, #contact h2{
-  font-size: 40px;
-  font-weight: bold;  
-  margin: 4vh;
-  text-align: center;
-  color: white;
-}
-
 #skills i{
 font-size: 60px;
 }
-
 #skills i, #skills img{
   margin: 1vh;
   padding: 1vh;
-  display: block;
 }
+.firebase{
+  width: 50px;
+}
+.chaijs{
+  width: 70px;
+}
+/* ---------------------------------- FIN SKILLS */
 
+/* ------------------------------ INICIO CONTACT */
 #contact{
   background: transprearent;
 }
-
 #contact img{
   margin: 2vh 5vh 20vh 5vh;
 }
+/* --------------------------------- FIN CONTACT */
 
+/* ---------------------------- INICIO ANIMACION */
+.containerAnimation{
+  margin: -80vh auto 0;
+  width: 80%;
+}
+.bgAnimation{
+  background-color: rgba(0, 128, 128, 0.6);
+  border-radius: 3vh;
+}
 .lineName{
   stroke: white;
   fill: none;
@@ -108,7 +127,6 @@ font-size: 60px;
   -moz-animation: animate 5s cubic-bezier(.43,.22,.41,.92);  
   -webkit-animation: animate 5s cubic-bezier(.43,.22,.41,.92);  
 }
-
 .lineT{
   stroke: white;
   fill: none;
@@ -121,7 +139,6 @@ font-size: 60px;
   -moz-animation-timing-function: ease-in; 
   -webkit-animation-timing-function: ease-in; 
 }
-
 .lineI{
   stroke: white;
   fill: none;
@@ -131,7 +148,6 @@ font-size: 60px;
   -moz-animation: animateI 5.5s cubic-bezier(.43,.22,.41,.92);
   -webkit-animation: animateI 5.5s cubic-bezier(.43,.22,.41,.92);
 }
-
 @keyframes animate{
   0%{
     opacity: 10;
@@ -157,7 +173,6 @@ font-size: 60px;
     stroke-dashoffset: 0;
   }
 }
-
 @keyframes animateT{
   0%{
     opacity: 0;
@@ -182,7 +197,6 @@ font-size: 60px;
     stroke-dashoffset: 0;
   }
 }
-
 @keyframes animateI{
   0%{
     opacity: 0;
@@ -207,29 +221,8 @@ font-size: 60px;
     stroke-dashoffset: 0;
   }
 }
-
 .myName{
   margin: 0 0 20vh -5vh;
 } 
+/* ------------------------------- FIN ANIMACION */
 
-.demo a{
-  color: #9de0ad;
-}
-
-.containerAnimation{
-  margin: -80vh auto 0;
-  width: 80%;
-}
-
-.bgAnimation{
-  background-color: rgba(0, 128, 128, 0.6);
-  border-radius: 3vh;
-}
-
-.firebase{
-  width: 50px;
-}
-
-.chaijs{
-  width: 70px;
-}
