@@ -112,6 +112,9 @@ font-size: 60px;
 #contact img{
   margin: 2vh 5vh 20vh 5vh;
 }
+.displayNone{
+  display: none;
+}
 /* --------------------------------- FIN CONTACT */
 
 /* ---------------------------- INICIO ANIMACION */
