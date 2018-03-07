@@ -1,0 +1,22 @@
+{
+  "name": "portfolioestefania",
+  "version": "1.0.0",
+  "description": "Color: #E5FCC2;     Color: #9DE0AD;     Color: #45ADA8;   Color: #fa8072; Color: #594F4F;",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niennis/Niennis.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "estefania osses vera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Niennis/Niennis/issues"
+  },
+  "homepage": "https://github.com/Niennis/Niennis#readme"
+}
