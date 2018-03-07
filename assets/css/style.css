@@ -6,14 +6,15 @@ body{
   padding: 0vh;
   margin: 0vh;
   z-index: 1;
-  background-image: 
+  /* background-image: 
   -webkit-radial-gradient(80% 10%, circle, rgb(157, 224, 173), transparent), 
   -webkit-radial-gradient(80% 50%, circle, rgb(55, 222, 228), transparent), 
   -webkit-radial-gradient(20% 80%, 40em 40em, rgb(250, 128, 114), transparent), 
-  -webkit-radial-gradient(10% 10%, circle, rgb(250, 128, 114), transparent);
+  -webkit-radial-gradient(10% 10%, circle, rgb(250, 128, 114), transparent); */
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background: linear-gradient(60deg,rgb(250, 128, 114),rgb(157, 224, 173), teal);
 }
 *{
   margin: 0;
@@ -106,14 +107,14 @@ font-size: 60px;
 
 /* ------------------------------ INICIO CONTACT */
 #contact{
-  background: transprearent;
+  background: linear-gradient(60deg,rgb(250, 128, 114),rgb(157, 224, 173), teal);  
   height: 100vh;  
 }
 #contact img{
   margin: 2vh 5vh 20vh 5vh;
 }
 .displayNone{
-  display: none;
+  display: none;  
 }
 /* --------------------------------- FIN CONTACT */
 
