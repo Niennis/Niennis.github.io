@@ -52,7 +52,6 @@ body{
   background-color: teal;  
   padding: 10vh 0;
   color: white;
-  height: 100vh;  
 }
 #aboutMe p{
   margin-top: 5vh;
@@ -89,19 +88,31 @@ body{
   color: white;
   padding-bottom: 2vh;
   height: 100vh;  
+  text-align: center;
+}
+#skills .row{
+  height: 120px;
 }
 #skills i{
-font-size: 60px;
-}
-#skills i, #skills img{
-  margin: 1vh;
+  font-size: 60px;
+  margin: 1vh 5vh;
   padding: 1vh;
 }
+.materialize, .firebase, .chaijs{
+  padding: 0 1vh;
+  vertical-align: top;
+}
+.materialize{
+  width: 100px;
+  margin: 0 3vh 1vh 3vh;  
+}
 .firebase{
-  width: 50px;
+  width: 80px;
+  margin: 0 4vh;  
 }
 .chaijs{
   width: 70px;
+  margin: 0 6vh;  
 }
 /* ---------------------------------- FIN SKILLS */
 
@@ -109,12 +120,19 @@ font-size: 60px;
 #contact{
   background: linear-gradient(60deg,rgb(250, 128, 114),rgb(157, 224, 173), teal);  
   height: 100vh;  
+  color: white;
+  font-size: 16px;
 }
 #contact img{
   margin: 2vh 5vh 20vh 5vh;
 }
-.displayNone{
-  display: none;  
+#contact label{
+  margin-bottom: 1vh;
+  float: left;
+}
+#contact .btn{
+  background-color: teal;
+  color: white;
 }
 /* --------------------------------- FIN CONTACT */
 

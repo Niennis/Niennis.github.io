@@ -4,9 +4,9 @@ $(document).ready(function() {
   $('.myName').ready(function() {
     console.log('front end');
     setTimeout(() => {
-    $('#front').fadeIn(8000);
+      $('#front').fadeIn(8000);
     }, 1500);
-  })
+  });
 
   $('#contactForm').submit(function(e) {
     let name = document.getElementById('inputName');
@@ -21,10 +21,10 @@ $(document).ready(function() {
         method: 'POST',
         data: $('#contactForm').serialize(),
         dataType: 'json'
-      })
+      });
       e.preventDefault();
       $(this).get(0).reset();
-      alertify.success('Mensaje enviado')
+      alertify.success('Mensaje enviado');
     }
   });
 });
