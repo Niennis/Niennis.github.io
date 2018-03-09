@@ -29,7 +29,7 @@ body{
 }
 /* ---------------------------- INICIO ANIMACION */
 #estefania{
-  height: 100vh;
+  min-height: 100vh;
   /* background-image: url('./../../../Dragonfly-Wings-889x592.jpg'); */
   background-size: cover;
 }
@@ -52,6 +52,7 @@ body{
   background-color: teal;  
   padding: 10vh 0;
   color: white;
+  min-height: 100vh;
 }
 #aboutMe p{
   margin-top: 5vh;
@@ -69,12 +70,17 @@ body{
 #myWork{
   background-color: #9de0ad;  
   padding: 10vh 0;
+  min-height: 100vh;  
 }
 #myWork img{
   margin: 2vh 0 2vh -4vh;
 }
 .demo a{
-  color: teal;
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+  padding: 0.5vh;
+  border-radius: 0.5vh;
 }
 .demo a:hover{
   background-color: teal;
@@ -87,7 +93,7 @@ body{
   background-color: teal;
   color: white;
   padding-bottom: 2vh;
-  height: 100vh;  
+  min-height: 100vh;  
   text-align: center;
 }
 #skills .row{
@@ -119,7 +125,7 @@ body{
 /* ------------------------------ INICIO CONTACT */
 #contact{
   background: linear-gradient(60deg,rgb(250, 128, 114),rgb(157, 224, 173), teal);  
-  height: 100vh;  
+  min-height: 100vh;  
   color: white;
   font-size: 16px;
 }
@@ -133,6 +139,16 @@ body{
 #contact .btn{
   background-color: teal;
   color: white;
+  font-weight: bold;
+}
+#contact .btn:hover{
+  background-color: salmon;
+  color: white;
+  font-weight: bold;  
+}
+#message{
+  overflow: hidden;
+  resize: none;
 }
 /* --------------------------------- FIN CONTACT */
 
