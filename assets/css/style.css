@@ -6,20 +6,27 @@ body{
   padding: 0vh;
   margin: 0vh;
   z-index: 1;
-  /* background-image: 
-  -webkit-radial-gradient(80% 10%, circle, rgb(157, 224, 173), transparent), 
-  -webkit-radial-gradient(80% 50%, circle, rgb(55, 222, 228), transparent), 
-  -webkit-radial-gradient(20% 80%, 40em 40em, rgb(250, 128, 114), transparent), 
-  -webkit-radial-gradient(10% 10%, circle, rgb(250, 128, 114), transparent); */
+}
+body p{
+  font-size: 2.8vh;  
 }
 *{
   margin: 0;
   padding: 0;
 }
+section{
+  background-color: teal;
+  color: white;
+  padding-bottom: 2vh;
+  min-height: 100vh;  
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
 .titleSection{
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bold;  
-  margin: 4vh;
+  margin: 4vh 0;
   text-align: center;
   color: white;
 }
@@ -56,13 +63,13 @@ body{
 }
 #aboutMe p{
   margin-top: 5vh;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 2.8vh;
+  line-height: 4vh;
 }
-#aboutMe img{
-  margin: 0 auto;
-  width: 50vh;
-  border: 1vh solid salmon;  
+.myPic{
+  margin: 15% auto;
+  width: 60vh;
+  border: 1vh solid salmon;
 }
 /* -------------------------------- FIN ABOUT ME */
 
@@ -89,19 +96,12 @@ body{
 /* --------------------------------- FIN MY WORK */
 
 /* ------------------------------- INICIO SKILLS */
-#skills{
-  background-color: teal;
-  color: white;
-  padding-bottom: 2vh;
-  min-height: 100vh;  
-  text-align: center;
-}
 #skills .row{
-  height: 120px;
+  height: 20vh;
 }
 #skills i{
   font-size: 60px;
-  margin: 1vh 5vh;
+  margin: 1vh 6vh;
   padding: 1vh;
 }
 .materialize, .firebase, .chaijs{
@@ -130,7 +130,11 @@ body{
   font-size: 16px;
 }
 #contact img{
-  margin: 2vh 5vh 20vh 5vh;
+  margin: 2vh 5vh 3vh 5vh;
+  width: 7vh;
+}
+#contact p{
+  margin-bottom: 10vh;
 }
 #contact label{
   margin-bottom: 1vh;
@@ -140,6 +144,8 @@ body{
   background-color: teal;
   color: white;
   font-weight: bold;
+  padding: 2.5vh;
+  border-radius: 1vh;
 }
 #contact .btn:hover{
   background-color: salmon;
@@ -149,6 +155,13 @@ body{
 #message{
   overflow: hidden;
   resize: none;
+}
+#showNumber{
+  cursor: pointer;
+}
+#contact a{
+  color: white;
+  text-decoration: none;
 }
 /* --------------------------------- FIN CONTACT */
 
@@ -271,3 +284,11 @@ body{
 
 /* ------------------------------- FIN ANIMACION */
 
+/* ------------------------------------- HELPERS */
+.flex{
+  display: flex;
+  align-items: center;
+}
+.hola{
+  display: none;
+}

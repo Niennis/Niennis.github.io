@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('#juju').fadeIn(2000);
+  $('#fadeIn').fadeIn(2000);
   
   $('.myName').ready(function() {
     console.log('front end');
@@ -27,6 +27,16 @@ $(document).ready(function() {
       alertify.success('Mensaje enviado');
     }
   });
+});
+
+$('#showNumber').click(function() {
+  $('#showNumber').toggle('hola');
+  $('#phoneNumber').toggle('hola');
+});
+
+$('#phoneNumber').click(function() {
+  $('#showNumber').toggle('hola');
+  $('#phoneNumber').toggle('hola');  
 });
 
 
