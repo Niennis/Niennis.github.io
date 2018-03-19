@@ -292,3 +292,6 @@ section{
 .hola{
   display: none;
 }
+.col{
+  padding: 0;
+}
