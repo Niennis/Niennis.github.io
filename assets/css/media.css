@@ -1,0 +1,12 @@
+@media (min-width: 535px)   {
+  .containerAnimation{
+    width: 70%;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 534px){
+  
+  .containerAnimation{
+    width: 100%;
+  }
+}

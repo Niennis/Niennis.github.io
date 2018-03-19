@@ -11,10 +11,6 @@ body{
   -webkit-radial-gradient(80% 50%, circle, rgb(55, 222, 228), transparent), 
   -webkit-radial-gradient(20% 80%, 40em 40em, rgb(250, 128, 114), transparent), 
   -webkit-radial-gradient(10% 10%, circle, rgb(250, 128, 114), transparent); */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background: linear-gradient(60deg,rgb(250, 128, 114),rgb(157, 224, 173), teal);
 }
 *{
   margin: 0;
@@ -30,6 +26,10 @@ body{
 /* ---------------------------- INICIO ANIMACION */
 #estefania{
   min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: linear-gradient(60deg,rgb(250, 128, 114),rgb(157, 224, 173), teal);
   /* background-image: url('./../../../Dragonfly-Wings-889x592.jpg'); */
   background-size: cover;
 }
@@ -62,7 +62,7 @@ body{
 #aboutMe img{
   margin: 0 auto;
   width: 50vh;
-  border: 1vh solid salmon;
+  border: 1vh solid salmon;  
 }
 /* -------------------------------- FIN ABOUT ME */
 
@@ -155,12 +155,15 @@ body{
 /* ---------------------------- INICIO ANIMACION */
 .containerAnimation{
   margin: -80vh auto 0;
-  width: 80%;
+  /* width: 80%; */
   background-color: rgba(0, 128, 128, 0.6);
   border-radius: 3vh;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   
   /* border-spacing: 2vh;*/
+}
+.myName{
+  margin: 0 auto 8vh auto;
 }
 .lineName{
   stroke: white;
@@ -196,17 +199,17 @@ body{
   0%{
     opacity: 10;
     fill: none;
-    stroke: #9de0ad;
+    stroke: white;
     stroke-dashoffset: 2190;
   }
   30%{
     opacity: 10;
     fill: none;
-    stroke: #9de0ad;    
+    stroke: white;    
     stroke-dashoffset: 2190;
   }
   50%{
-    stroke: #9de0ad;
+    stroke: white;
   }
   90%{
     stroke: white;
@@ -265,8 +268,6 @@ body{
     stroke-dashoffset: 0;
   }
 }
-.myName{
-  margin: 0 0 10vh -5vh;
-} 
+
 /* ------------------------------- FIN ANIMACION */
 
