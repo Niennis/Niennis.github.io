@@ -13,7 +13,8 @@
 	position: relative;
 	margin: 0 auto;
 	padding: 1em 0 4em;
-	max-width: 1000px;
+	max-width: 300px;
+	/* width: 300px; */
 	list-style: none;
 	text-align: center;
 }
@@ -25,9 +26,9 @@
 	overflow: hidden;
 	margin: 10px auto;
 	min-width: 280px;
-	max-width: 320px;
+	max-width: 300px;
 	max-height: 50vh;
-	width: 45vh;
+	/* width: 300px; */
 	background: teal;
 	text-align: center;
 	cursor: pointer;

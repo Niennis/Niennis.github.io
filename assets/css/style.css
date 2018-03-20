@@ -14,15 +14,6 @@ body p{
   margin: 0;
   padding: 0;
 }
-section{
-  background-color: teal;
-  color: white;
-  padding-bottom: 2vh;
-  min-height: 100vh;  
-  text-align: center;
-  display: flex;
-  align-items: center;
-}
 .titleSection{
   font-size: 50px;
   font-weight: bold;  
@@ -44,7 +35,7 @@ section{
   z-index: 10;
 }
 #estefania h2{
-  margin-top: -10vh;
+  margin: -10vh auto 0;
   font-family: 'Cookie', cursive; 
   font-size: 40px;
   color: white;
@@ -65,10 +56,11 @@ section{
   margin-top: 5vh;
   font-size: 2.8vh;
   line-height: 4vh;
+  text-align: right;
 }
 .myPic{
-  margin: 15% auto;
-  width: 40vh;
+  margin: 5vh auto;
+  width: 50vh;
   border: 1vh solid salmon;
 }
 /* -------------------------------- FIN ABOUT ME */
@@ -79,9 +71,12 @@ section{
   padding: 10vh 0;
   min-height: 100vh;  
 }
-#myWork img{
-  margin: 2vh 0 2vh -4vh;
+#myWork .row{
+  margin: auto;
 }
+/* #myWork img{
+  margin: 2vh 0 2vh -4vh;
+} */
 .demo a{
   color: white;
   text-decoration: underline;
@@ -96,12 +91,21 @@ section{
 /* --------------------------------- FIN MY WORK */
 
 /* ------------------------------- INICIO SKILLS */
+#skills{
+  background-color: teal;
+  color: white;
+  padding-bottom: 2vh;
+  min-height: 100vh;  
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
 #skills .row{
   height: 20vh;
 }
 #skills i{
   font-size: 60px;
-  margin: 1vh 6vh;
+  /* margin: 1vh 6vh; */
   padding: 1vh;
 }
 .materialize, .firebase, .chaijs{
@@ -110,16 +114,21 @@ section{
 }
 .materialize{
   width: 100px;
-  margin: 0 3vh 1vh 3vh;  
+  margin: 0.3vh auto 1vh auto;  
 }
 .firebase{
   width: 80px;
-  margin: 0 4vh;  
+  margin: 0 auto 0.7vh;  
 }
 .chaijs{
-  width: 70px;
-  margin: 0 6vh;  
+  width: 11vh;
+  /* height: 4.8vh; */
+  margin: 0 auto ;  
 }
+.grid{
+  margin: auto;
+}
+
 /* ---------------------------------- FIN SKILLS */
 
 /* ------------------------------ INICIO CONTACT */
@@ -172,11 +181,10 @@ section{
   background-color: rgba(0, 128, 128, 0.6);
   border-radius: 3vh;
   /* border: 1px solid white; */
-  
   /* border-spacing: 2vh;*/
 }
 .myName{
-  margin: 0 auto 8vh auto;
+  margin: 0 auto 8vh -15px;
 }
 .lineName{
   stroke: white;
@@ -281,7 +289,6 @@ section{
     stroke-dashoffset: 0;
   }
 }
-
 /* ------------------------------- FIN ANIMACION */
 
 /* ------------------------------------- HELPERS */
@@ -291,7 +298,4 @@ section{
 }
 .hola{
   display: none;
-}
-.col{
-  padding: 0;
 }
