@@ -59,7 +59,7 @@ body p{
   text-align: right;
 }
 .myPic{
-  margin: 5vh auto;
+  margin: auto;
   width: 50vh;
   border: 1vh solid salmon;
 }
