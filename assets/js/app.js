@@ -30,13 +30,13 @@ $(document).ready(function() {
 });
 
 $('#showNumber').click(function() {
-  $('#showNumber').toggle('hola');
-  $('#phoneNumber').toggle('hola');
+  $('#showNumber').toggle('showHide');
+  $('#phoneNumber').toggle('showHide');
 });
 
 $('#phoneNumber').click(function() {
-  $('#showNumber').toggle('hola');
-  $('#phoneNumber').toggle('hola');  
+  $('#showNumber').toggle('showHide');
+  $('#phoneNumber').toggle('showHide');  
 });
 
 

@@ -24,12 +24,12 @@
 	position: relative;
 	float: left;
 	overflow: hidden;
-	margin: 10px auto;
+	margin: 1vh auto 1vh 2vh;
 	min-width: 280px;
 	max-width: 300px;
 	max-height: 50vh;
 	/* width: 300px; */
-	background: teal;
+	border: 0.4vh solid teal;
 	text-align: center;
 	cursor: pointer;
 }
@@ -49,6 +49,7 @@
 	font-size: 1.25em;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
+	/* background-color: rgba(0, 128, 128, 0.452); */
 }
 
 .grid figure figcaption::before,
@@ -129,6 +130,7 @@ figure.effect-lily p {
 	padding: 1vh;
 	-webkit-transform: translate3d(0,40px,0);
 	transform: translate3d(0,40px,0);
+	background-color: rgba(0, 128, 128, 0.8);
 }
 
 figure.effect-lily h2 {
