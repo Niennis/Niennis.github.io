@@ -41,11 +41,11 @@ particlesJS('particles-js',
         }
       },
       "opacity": {
-        "value": 0.5,
+        "value": 0.7,
         "random": true,
         "anim": {
           "enable": false,
-          "speed": 1,
+          "speed": 4,
           "opacity_min": 0.1,
           "sync": false
         }

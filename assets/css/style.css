@@ -8,7 +8,7 @@ body{
   z-index: 1;
 }
 body p{
-  font-size: 2.8vh;  
+  font-size: 16px;  
 }
 *{
   margin: 0;
@@ -36,14 +36,13 @@ body p{
 }
 #estefania h2{
   margin: -10vh auto 0;
-  /* font-family: 'Cookie', cursive;  */
   font-size: 40px;
   color: white;
   text-align: center;
+  font-family: 'Fredericka the Great', cursive; 
   /* font-family: 'Marck Script', cursive; */
   /* font-family: 'Grand Hotel', cursive; */
-  font-family: 'Fredericka the Great', cursive; 
-  
+  /* font-family: 'Cookie', cursive;  */  
 }
 /* ------------------------------- FIN ANIMACION */
 
@@ -56,12 +55,12 @@ body p{
 }
 #aboutMe p{
   margin-top: 5vh;
-  font-size: 2.8vh;
-  line-height: 4vh;
+  /*font-size: 2.8vh;*/
+  line-height: 26px;
   text-align: right;
 }
 .myPic{
-  margin: auto;
+  margin: 2vh auto;
   width: 50vh;
   border: 1vh solid salmon;
 }
@@ -192,13 +191,22 @@ body p{
   height: 24vh;
 }
 /* --------------------------------- FIN CONTACT */
-
+footer{
+  height: 8vh;
+  background-color: teal;
+  color: white;
+  text-align: right;
+  padding: 3vh 0;
+}
+footer a{
+  color: #9de0ad;
+}
 /* ---------------------------- INICIO ANIMACION */
 .containerAnimation{
   margin: -80vh auto 0;
-  /* width: 80%; */
   background-color: rgba(0, 128, 128, 0.6);
   border-radius: 3vh;
+  /* width: 80%; */
   /* border: 1px solid white; */
   /* border-spacing: 2vh;*/
 }
